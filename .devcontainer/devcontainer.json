@@ -39,6 +39,7 @@
 			"ms-toolsai.vscode-jupyter-slideshow",
 			"ms-python.vscode-pylance",
 			"ms-python.black-formatter",
+			"ms-python.isort"
 		  ]
 		}
 	  }
