@@ -1,4 +1,1 @@
 torch
-torchvision
-pytorch-metric-learning
-faiss-gpu
