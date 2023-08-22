@@ -5,6 +5,7 @@
 # install Python packages
 python -m pip install --upgrade pip
 pip install --user -r .devcontainer/requirements.txt
+pip install -e .
 
 # # install recommended packages
 # apt-get install zlib1g g++ freeglut3-dev \
