@@ -1,0 +1,31 @@
+## The .gitignore file specifies things that git should ignore. 
+
+# IDE files
+.idea
+.vscode
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+*.egg-info/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# virtualenv
+.env
+.venv
+env/
+venv/
+ENV/
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Other
+wandb
