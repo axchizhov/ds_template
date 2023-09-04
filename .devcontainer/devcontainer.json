@@ -4,7 +4,7 @@
 	"name": "CUDA",
 	// Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
 	"image": "mcr.microsoft.com/devcontainers/base:jammy",
-	"runArgs": ["--gpus=all"],
+	"runArgs": ["--gpus=all", "--ipc=host"],
 	"features": {
 		"ghcr.io/devcontainers/features/nvidia-cuda:1": {
 			"installCudnn": true,
